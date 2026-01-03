@@ -1,0 +1,22 @@
+ammoTypes: {
+    metaglass: {
+        splashDamageRadius: 15
+        splashDamage: 27
+        damage: 27
+    }
+    blast-compound: {
+        splashDamageRadius: 37.5
+        splashDamage: 27
+        damage: 29
+    }
+    plastanium: {
+        splashDamageRadius: 24.5
+        splashDamage: 23
+        damage: 24
+    }
+    surge-alloy: {
+        splashDamageRadius: 23
+        splashDamage: 46
+        damage: 46
+    } 
+}

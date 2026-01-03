@@ -1,0 +1,22 @@
+shoot: {
+    type: shootHelix
+    shots: 4
+    time: 10
+    scl: 10
+    offsetScaleRandMax: 10
+    offsetScaleRandMin: 5
+}
+ammoTypes: {
+    graphite: {
+        splashDamageRadius: 36.675
+    }
+    silicon: {
+        splashDamageRadius: 36.675
+    }
+    pyratite: {
+        splahsDamageRadius: 36.675
+    }
+    blast-compound: {
+        splashDamageRadius: 60
+    }
+}
