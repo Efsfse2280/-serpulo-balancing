@@ -7,4 +7,4 @@ all json-able mature balancing tweaks from the channel will (hopefully) be here.
 
 - Enlarged gap between laser and AB.
 
-- Ammo AoE values wap between Ripple and Cyclone.
+- Ammo AoE values swap between Ripple and Cyclone. (Ripple dmg counternerf)

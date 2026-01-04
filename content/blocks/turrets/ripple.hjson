@@ -9,7 +9,7 @@ ammoTypes: {
     width: 12
     hitSize: 16
     damage: 40
-    splashDamage: 70
+    splashDamage: 50
     splashDamageRadius: 36.675
     knockback: 0.8
     speed: 3
@@ -34,7 +34,7 @@ ammoTypes: {
     width: 12
     hitSize: 16
     damage: 40
-    splashDamage: 70
+    splashDamage: 50
     splashDamageRadius: 36.675
     knockback: 0.8
     speed: 3
@@ -65,7 +65,7 @@ ammoTypes: {
     width: 13
     hitSize: 20
     damage: 40
-    splashDamage: 90
+    splashDamage: 50
     splashDamageRadius: 36.675
     knockback: 0.8
     speed: 3
@@ -94,7 +94,7 @@ ammoTypes: {
     width: 14
     hitSize: 24
     damage: 40
-    splashDamage: 90
+    splashDamage: 70
     splashDamageRadius: 60
     knockback: 0.8
     speed: 2
@@ -122,7 +122,7 @@ ammoTypes: {
     width: 13
     hitSize: 20
     damage: 40
-    splashDamage: 90
+    splashDamage: 70
     splashDamageRadius: 30
     knockback: 1
     speed: 3.4
