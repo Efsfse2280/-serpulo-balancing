@@ -1,11 +1,3 @@
-shoot: {
-    type: ShootHelix
-    shots: 4
-    time: 10
-    scl: 10
-    offsetScaleRandMax: 10
-    offsetScaleRandMin: 5
-}
 ammoTypes: {
   graphite: {
     type: ArtilleryBulletType
