@@ -35,7 +35,7 @@ ammoTypes: {
     hitSize: 16
     damage: 40
     splashDamage: 50
-    splashDamageRadius: 36.675
+    splashDamageRadius: 32.675
     knockback: 0.8
     speed: 3
     lifetime: 80
@@ -122,14 +122,12 @@ ammoTypes: {
     width: 13
     hitSize: 20
     damage: 40
-    splashDamage: 70
-    splashDamageRadius: 30
+    splashDamage: 55
+    splashDamageRadius: 38
     knockback: 1
     speed: 3.4
     lifetime: 80
     collidesTiles: false
-    fragLifeMin: 0.5
-    fragLifeMax: 1
     fragBullets: 15
     fragBullet: {
       height: 12
