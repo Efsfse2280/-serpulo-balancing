@@ -1,5 +1,5 @@
 shoot: {
-    type: shootHelix
+    type: ShootHelix
     shots: 4
     time: 10
     scl: 10
@@ -7,25 +7,11 @@ shoot: {
     offsetScaleRandMin: 5
 }
 ammoTypes: {
-    graphite: {
-        splashDamageRadius: 36.675
-    }
-    silicon: {
-        splashDamageRadius: 36.675
-    }
-    pyratite: {
-        splahsDamageRadius: 36.675
-    }
-    blast-compound: {
-        splashDamageRadius: 60
-    }
-}
-ammoTypes: {
   graphite: {
     type: ArtilleryBulletType
     hitEffect: [
-        flakExplosion
-        shockwaveSmaller
+      flakExplosion
+      shockwaveSmaller
     ]
     height: 14
     width: 12
@@ -49,8 +35,8 @@ ammoTypes: {
   silicon: {
     type: ArtilleryBulletType
     hitEffect: [
-        flakExplosion
-        shockwaveSmaller
+      flakExplosion
+      shockwaveSmaller
     ]
     height: 14
     width: 12
@@ -80,8 +66,8 @@ ammoTypes: {
   pyratite: {
     type: ArtilleryBulletType
     hitEffect: [
-        flakExplosion
-        shockwaveSmaller
+      flakExplosion
+      shockwaveSmaller
     ]
     height: 15
     width: 13
@@ -109,8 +95,8 @@ ammoTypes: {
   blast-compound: {
     type: ArtilleryBulletType
     hitEffect: [
-        blastExplosion
-        shockwaveSmaller
+      blastExplosion
+      shockwaveSmaller
     ]
     height: 16
     width: 14
@@ -137,14 +123,15 @@ ammoTypes: {
   plastanium: {
     type: ArtilleryBulletType
     hitEffect: [
-        plasticExplosion
-        shockwaveSmaller
+      plasticExplosion
+      shockwaveSmaller
     ]
     height: 13
     width: 13
     hitSize: 20
+    damage: 40
     splashDamage: 90
-    splashDamageRadius: 38
+    splashDamageRadius: 30
     knockback: 1
     speed: 3.4
     lifetime: 80
