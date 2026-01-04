@@ -56,7 +56,7 @@ ammoTypes: {
             shrinkY: 1
             lifetime: 15
             frontColor: fffac6
-            backColor: d8d97
+            backColor: d8d97f
             despawnEffect: none
         }
         fragBullets: 6
