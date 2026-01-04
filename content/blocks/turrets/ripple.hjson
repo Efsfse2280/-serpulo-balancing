@@ -22,7 +22,7 @@ ammoTypes: {
     hitColor: dae1ee
     despawnEffect: hitBulletColor
     lifeScaleRandMax: 1.08
-    lifeScaleRandMin: 0.95
+    lifeScaleRandMin: 0.92
   }
   silicon: {
     type: ArtilleryBulletType
@@ -53,7 +53,7 @@ ammoTypes: {
     trailWidth: 3.1
     despawnEffect: hitBulletColor
     lifeScaleRandMax: 1.08
-    lifeScaleRandMin: 0.95
+    lifeScaleRandMin: 0.92
   }
   pyratite: {
     type: ArtilleryBulletType
@@ -82,7 +82,7 @@ ammoTypes: {
     trailEffect: incendTrail
     despawnEffect: hitBulletColor
     lifeScaleRandMax: 1.08
-    lifeScaleRandMin: 0.95
+    lifeScaleRandMin: 0.92
   }
   blast-compound: {
     type: ArtilleryBulletType
@@ -110,7 +110,7 @@ ammoTypes: {
     hitEffect: blastExplosion
     despawnEffect: hitBulletColor
     lifeScaleRandMax: 1.08
-    lifeScaleRandMin: 0.95
+    lifeScaleRandMin: 0.92
   }
   plastanium: {
     type: ArtilleryBulletType
@@ -146,6 +146,6 @@ ammoTypes: {
     frontColor: fffac6
     backColor: d8d97f
     lifeScaleRandMax: 1.08
-    lifeScaleRandMin: 0.95
+    lifeScaleRandMin: 0.92
   }
 }
