@@ -1,22 +1,91 @@
 ammoTypes: {
     metaglass: {
+        type: FlakBulletType
+        speed: 4
+        width: 6
+        height: 11
+        hitEffect: flakExplosion
+        fragBullet: {
+            speed: 3
+            damage: 12
+            width: 5
+            height: 12
+            shrinkY: 1
+            lifetime: 20
+            despawnEffect: none
+        }
+        fragBullets: 4
+        explodeRange: 20
         splashDamageRadius: 15
         splashDamage: 27
         damage: 27
+        collidesGround: true
+
+        despawnEffect: hitBulletColor
     }
     blast-compound: {
+        type: FlakBulletType
+        shootEffect: shootBig
+        ammoMultiplier: 5
+        speed: 4
         splashDamageRadius: 37.5
         splashDamage: 27
         damage: 29
+        status: blasted
+        collidesGround: true
+
+        despawnEffect: hitBulletColor
+        frontColor: eeab89
+        backColor: e9665b
+        hitColor: e9665b
+        trailColor: e9665b
     }
     plastanium: {
+        type: FlakBulletType
+        shootEffect: shootBig
+        ammoMultiplier: 4
+        speed: 4
+        width: 6
+        height: 11
+        hitEffect: flakExplosion
+        fragBullet: {
+            speed: 2.5
+            damage: 12
+            width: 10
+            height: 12
+            shrinkY: 1
+            lifetime: 15
+            frontColor: fffac6
+            backColor: d8d97
+            despawnEffect: none
+        }
+        fragBullets: 6
+        explodeRange: 20
         splashDamageRadius: 24.5
         splashDamage: 23
         damage: 24
+
+        despawnEffect: hitBulletColor
+        hitEffect: plasticExplosion
+        frontColor: fffac6
+        backColor: d8d97f
     }
     surge-alloy: {
+        type: FlakBulletType
+        shootEffect: shootBig
+        ammoMultiplier: 5
+        speed: 4
+        collidesGround: true
         splashDamageRadius: 23
         splashDamage: 46
         damage: 46
+        lightning: 2
+        lightningLength: 7
+        
+        despawnEffect: hitBulletColor
+        frontColor: ffffff
+        backColor: f3e979
+        hitColor: f3e979
+        trailColor: f3e979
     } 
 }
