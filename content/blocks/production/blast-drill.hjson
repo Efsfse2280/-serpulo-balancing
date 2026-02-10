@@ -1,6 +1,7 @@
 requirements: [
-    copper/65
-    plastanium/50
-    thorium/75
+    copper/80
+    graphite/60
+    thorium/110
     silicon/60
+    titanium/40
 ]

@@ -5,6 +5,6 @@ all json-able mature balancing tweaks from the channel will (hopefully) be here.
 
 - Percentage-only overdrive nerf (20-60-70).
 
-- Enlarged gap between laser and AB.
+- AB bcost nerf. (graph added, overall increases)
 
-- Ammo AoE values swap between Ripple and Cyclone. (Ripple dmg counternerf)
+- Ammo AoE values buffed for ripple.
