@@ -1,10 +1,10 @@
 # #serpulo-balancing
-all json-able mature balancing tweaks from the channel will (hopefully) be here.
+all json-able mature balancing tweaks from the channel will (most likely) be here.
 
 ## Current changes list:
 
-- Percentage-only overdrive nerf (20-60-70).
+- halved overdrive nerf +(25-62.5-75)%.
 
-- AB bcost nerf. (graph added, overall increases)
+- AB bcost nerf.
 
-- Ammo AoE values buffed for ripple.
+#### Contains maps with different balancing datapatches.
